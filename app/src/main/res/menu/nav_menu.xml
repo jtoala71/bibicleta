@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home_item" />
+        <item
+            android:id="@+id/nav_NovMyEbike"
+            android:icon="@drawable/ic_store"
+            android:title="@string/MyEbikeNov_item" />
+
+        <item
+            android:id="@+id/nav_MyEbike"
+            android:icon="@drawable/ic_store"
+            android:title="@string/MyEbike_item" />
+        <item
+            android:id="@+id/nav_sobre_nosotros"
+            android:icon="@drawable/ic_store"
+            android:title="@string/sobre_nosotros_item" />
+        <item
+            android:id="@+id/nav_hazte_socio"
+            android:icon="@drawable/ic_shopping_cart"
+            android:title="@string/hazte_socio_item" />
+        <item
+            android:id="@+id/nav_Registrate"
+            android:icon="@drawable/ic_truck"
+            android:title="@string/registrate_item" />
+        <item
+            android:id="@+id/nav_ir_asovel"
+            android:icon="@drawable/ic_file_document"
+            android:title="@string/ir_asovel_item" />
+
+        <item
+            android:id="@+id/nav_antes_de_comprar"
+            android:icon="@drawable/ic_file_document"
+            android:title="@string/antes_de_comprar_item" />
+
+        <item
+            android:id="@+id/nav_Publica_tu_ebike"
+            android:icon="@drawable/ic_file_document"
+            android:title="@string/publica_tu_ebike_item" />
+
+
+        <!-- Sección de configuración -->
+        <item
+            android:id="@+id/configuration_section"
+            android:title="@string/configuracion_item">
+            <menu>
+                <item
+                    android:id="@+id/nav_Ayuda"
+                    android:icon="@drawable/ic_file_document"
+                    android:title="@string/ayudda_item" />
+                <item
+                    android:id="@+id/nav_log_out"
+                    android:icon="@android:drawable/ic_lock_power_off"
+                    android:title="@string/log_out_item" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
